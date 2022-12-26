@@ -10,7 +10,7 @@ import { saveUserData, clearUserData, requestUserData  } from "../components/api
 // const apiURL = 'http://192.168.0.101:5000'
 
 
-const apiURL = 'http://kkschatty-backend.vercel.app'
+const apiURL = 'https://kkschatty-backend.vercel.app'
 
 const authAxios = (token) => axios.create(
   {baseURL: apiURL,
