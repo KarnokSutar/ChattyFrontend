@@ -23,6 +23,7 @@ export function Chat() {
   useEffect(() => {
     if (user) {
       socket = io("https://kkschatty-backend.vercel.app");
+      
       socket.emit("add-user", user._id);
     }
   }, [user]);
